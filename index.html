@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+        <style>
+            body{
+                background:url("https://i.pinimg.com/originals/e7/ad/b9/e7adb9c8410a85df2ffd5e658ff31d7d.jpg");
+                margin: 0;
+            }
+            ul{
+                list-style-type:none;
+                padding:0;
+                margin:0;
+                position:fixed;
+            }
+            li a{
+                color:black;
+                text-decoration:none;
+                padding: 10px;
+                margin: 10px;
+                border-radius: 8px;
+            }
+           
+            li a:hover{
+                background-color:grey;
+            }
+            @media only screen and (max-width: 600px) {
+            body{
+                width:400px;
+            }
+            }
+            div.gallery{
+                border: 1px solid;
+                padding: 10px
+                width: 305px;
+                float: left;
+            }
+            .transient{
+                border: 2px solid;
+                color: red;
+                background-color: white;
+                width: 100%;
+                padding: 8px;
+            }
+            div.life{
+                color:blueviolet;
+                background-color:azure;
+                font-size: large;
+                text-align:centerl;
+                padding: 5px;
+                border: 1px solid;
+            }
+            div.myimg{
+                padding: 10px;
+                width: 300px;
+                margin-left: 30%; margin-right: 50%;
+            }
+            #hobby, #list{
+            border: 2px solid aqua;
+            padding: 8px;
+            font-family:Arial, Helvetica, sans-serif;
+            font-size: 200%;
+            color: black;
+            background-color: white;
+            text-align: center;
+        }
+        #list{
+            display:none;
+            padding: 75px;
+        }
+        </style>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+        <script>
+        $(document).ready(function(){
+            $("#hobby").click(function(){
+                $("#list").slideToggle("slow");
+            });
+        });
+    </script>
+
+    <!--bootstrap script tag-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <div class="dropdown">
+            <button class="btn btn-primary dropdown-toggle" type="dropdown" data-toggle="dropdown"><i class="fa fa-bars" aria-hidden="true"></i></button>
+        <ul class="dropdown-menu">
+            <li><a style="border:2px solid" href="#"><i class="fa fa-home" aria-hidden="true"></i> Home</a></li>
+            <li><a style="border:2px solid" href="#"><i class="fa fa-user-circle-o" aria-hidden="true"></i> About me</a></li>
+            <li><a style="border:2px solid" href="#"><i class="fa fa-phone" aria-hidden="true"></i> My contact</a></li>
+        </ul>
+        </div>
+        <br>
+        <div class="myimg">
+            <img src="https://scontent.fccu3-1.fna.fbcdn.net/v/t1.0-9/100609615_1135833210083578_6908867345620402176_o.jpg?_nc_cat=100&_nc_sid=8bfeb9&_nc_ohc=M82QIMtxPIIAX9fVFE6&_nc_ht=scontent.fccu3-1.fna&oh=85a02c718ead9d92ff182c3fa1c2807d&oe=5EF4BF52" style=" width:300px; height:300px; position: left 500px">
+        <div style="color:magenta; padding: 5px"><i>SOURABH KUMAR</i></div>
+        </div>
+        <fieldset>
+            <legend style="color:floralwhite">Hello! I am sourabh kumar. I am a student and completing b.tech from Techno India Salt Lake.<br>
+                I am pursuing to become a web developer and it always make me so curious. I am always excited to<br>
+                 learn something new about web technologies.
+            </legend>
+        </fieldset>
+        <br><br><br><br><br>
+        <h1 style="color:purple; text-align:center"><mark>What do I like?</mark></h1>
+        <div style="color:honeydew; text-align:center">
+           There are some few things that i want to tell you. About one year ago, I started to learn dance by watching you tube videos 
+           and started giving my most of the time to practice. And today I am participated in many cultural fest like colleges, by organizations. 
+           There is also something that i do in my free time like gymnastics, sketching and dancing too. But apart from all this things, I have also 
+           interested in programming but I never focus in it. After joining the college, I got the opportunity to learn about programming and have 
+           more time to practice for this. Still there are many things to learn. I always believe THE HARDER YOU WORK, THE GREATER SHINING YOU GET.    
+        </div>
+        <h2 class="transient"><strong>My lifelines</strong></h2>
+            <div class="gallery">
+                <a href="https://scontent.fccu3-1.fna.fbcdn.net/v/t1.0-9/96535517_1121212841545615_3122623936395739136_n.jpg?_nc_cat=101&_nc_sid=8bfeb9&_nc_ohc=__H4pK0eJnsAX_7qLar&_nc_ht=scontent.fccu3-1.fna&oh=825057a002ade278ecd0909c535c9904&oe=5EF49D1D"><img src="https://scontent.fccu3-1.fna.fbcdn.net/v/t1.0-9/96535517_1121212841545615_3122623936395739136_n.jpg?_nc_cat=101&_nc_sid=8bfeb9&_nc_ohc=__H4pK0eJnsAX_7qLar&_nc_ht=scontent.fccu3-1.fna&oh=825057a002ade278ecd0909c535c9904&oe=5EF49D1D" style="width:305px; height:300px; float:left; border:2px double pink"> </a>
+                <div class="life" >My youngest Mommi</div>
+            </div>
+            <div class="gallery">
+               <a href="https://scontent.fccu3-1.fna.fbcdn.net/v/t1.0-9/67882439_903208183346083_1851126789997330432_o.jpg?_nc_cat=107&_nc_sid=8bfeb9&_nc_ohc=BftBmU339PMAX8BihrV&_nc_ht=scontent.fccu3-1.fna&oh=1f4819fd298b9f3475f53dc817dc2a05&oe=5EF567A1"> <img src="https://scontent.fccu3-1.fna.fbcdn.net/v/t1.0-9/67882439_903208183346083_1851126789997330432_o.jpg?_nc_cat=107&_nc_sid=8bfeb9&_nc_ohc=BftBmU339PMAX8BihrV&_nc_ht=scontent.fccu3-1.fna&oh=1f4819fd298b9f3475f53dc817dc2a05&oe=5EF567A1" style="width:305px; height:300px; float:left;  border:2px double pink"> </a>
+                <div class="life" >My Adorable Didu</div>
+            </div>
+            <div class="gallery">
+                <a href="https://scontent.fccu3-1.fna.fbcdn.net/v/t1.0-9/100063722_1135565463443686_5468042762844635136_n.jpg?_nc_cat=100&_nc_sid=8bfeb9&_nc_ohc=v6c_MzrJQ0oAX-1aweR&_nc_ht=scontent.fccu3-1.fna&oh=6f5470c760dd3a4314a59c1c09b219af&oe=5EF753A2"><img src="https://scontent.fccu3-1.fna.fbcdn.net/v/t1.0-9/100063722_1135565463443686_5468042762844635136_n.jpg?_nc_cat=100&_nc_sid=8bfeb9&_nc_ohc=v6c_MzrJQ0oAX-1aweR&_nc_ht=scontent.fccu3-1.fna&oh=6f5470c760dd3a4314a59c1c09b219af&oe=5EF753A2" style="width:305px; height:300px; float:left;  border:2px double pink"></a>
+                <div class="life" >Mommi and Papa Love U <i class="fa fa-heart" aria-hidden="true"></i></div>
+            </div>
+            <div class="gallery">
+                <a href="https://scontent.fccu3-1.fna.fbcdn.net/v/t1.0-9/99010825_1135569523443280_642969995919228928_o.jpg?_nc_cat=101&_nc_sid=8bfeb9&_nc_ohc=5cZ8gw2rZzYAX_Y5nhE&_nc_ht=scontent.fccu3-1.fna&oh=7382ddf46d8d045dafbc1d75b1c27ba0&oe=5EF77AA2"><img src="https://scontent.fccu3-1.fna.fbcdn.net/v/t1.0-9/99010825_1135569523443280_642969995919228928_o.jpg?_nc_cat=101&_nc_sid=8bfeb9&_nc_ohc=5cZ8gw2rZzYAX_Y5nhE&_nc_ht=scontent.fccu3-1.fna&oh=7382ddf46d8d045dafbc1d75b1c27ba0&oe=5EF77AA2" style="width:305px; height:300px; float:left; border:2px double pink"></a>
+                <div class="life" >A loving family <i class="fa fa-users" aria-hidden="true"></i>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <br><br><br>
+        <Address style="color:ghostwhite">
+            <strong>Home Address</strong>
+            DUMRI, P.S.-DUMRI<br>
+            DIST.-GIRIDIH, STATE-JHARKHAND<br>
+            PIN CODE-825106<br>
+            <strong>Current Address</strong>
+            SHYAMNAGAR ROAD, BAGUIHATI<br>
+            KOLKATA, PIN CODE-700159<br>
+            WEST BENGAL<br>
+            CONTACT NO.-7004498589/8875329859
+        </Address>
+        <hr>
+        
+        <div id="hobby"><strong>click to see My Hobbies</strong></div>
+        <div id="list">
+            <img src="https://tse4.mm.bing.net/th?id=OIP.4hnnhLuBWFOQDHTDPxy_6QHaHa&pid=Api&P=0&w=300&h=300" style="width:20px; height:20px"> Dancing<br>
+            <img src="https://tse4.mm.bing.net/th?id=OIP.qxzfh2PD15l-VOSEcbMs2wHaHa&pid=Api&P=0&w=300&h=300" style="width:20px; height:20px"> Sketching<br>
+            <img src="https://image.flaticon.com/sprites/new_packs/291723-programming.png" style="width:20px; height:20px"> Programming<br>
+            <img src="https://image.pbs.org/poster_images/assets/z53kl5bs1yc9tnl06l3h_1.png.resize.710x399.png" style="width:20px; height:20px"> Gymnastic<br>
+            <img src="http://1.bp.blogspot.com/_FsAvWjAq4eU/TH6vQBbMzxI/AAAAAAAAARU/JIOWK_Ke_jg/s1600/travel%2Blogo.png" style="width:20px; height:20px"> Travelling<br>
+            <img src="https://st2.depositphotos.com/1218550/11465/v/950/depositphotos_114650008-stock-illustration-soccer-player-athlete-summer-games.jpg" style="width:20px; height:20px">Playing football<br>
+        </div>
+
+
+        <hr>
+        <a href="https://www.facebook.com/profile.php?id=100009707285821"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Facebook_icon.svg/1024px-Facebook_icon.svg.png" style="width:50px; height:50px"</a>
+        <a href="https://www.instagram.com/sourabhkumar7857/"><img src="https://cdn4.iconfinder.com/data/icons/social-media-2210/24/Instagram-512.png" style="width:50px; height:50px"</a>
+        <a href="https://twitter.com/Sk1272883Kumar"><img src="https://bookworksblog.files.wordpress.com/2013/07/twitter-icon.png" style="width:50px; height:50px"</a>
+        <a href="https://github.com/Sourabhk-anu"><img src="https://tse1.mm.bing.net/th?id=OIP.ns4DLbWRVwXVGJPnlQnXvwHaHa&pid=Api&P=0&w=300&h=300" style="width:50px; height:50px"</a>
+        <a href="https://www.linkedin.com/in/sourabh-kumar-53b1151a3/"><img src="https://mikespringer.files.wordpress.com/2014/08/linkedin-icon.png" style="width:50px; height:50px"</a>
+       
+
+    </body>
+</html>
